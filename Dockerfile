@@ -1,5 +1,5 @@
 FROM nginx
 MAINTAINER thiru@linux.com
-ADD ashu.html /usr/share/nginx/html/index.html
-COPY k8s.png /usr/share/nginx/html/DockerArchitecture.png
+ADD ashu.html /usr/share/nginx/html/ThiruWeb.html
+COPY DockerArchitecture.png /usr/share/nginx/html/DockerArchitecture.png
 EXPOSE 80
